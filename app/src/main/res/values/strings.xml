@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <color name="white">#FFFFFF</color>
+    <color name="textColor">#DBDBDB</color>
+    <color name="materialColorBlueGrey400">#78909C</color>
+    <string-array name="Cities">
+        <item>=Ваш город=</item>
+        <item>Томск</item>
+        <item>Москва</item>
+        <item>Нью-Йорк</item>
+    </string-array>
+    <style name="bgStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">#3F51B5</item>
+        <item name="android:colorPrimaryDark">#3949AB</item>
+        <item name="android:colorAccent">#00B0FF</item>
+    </style>
+    <string name="yourCity">Введите ваш город</string>
+</resources>
