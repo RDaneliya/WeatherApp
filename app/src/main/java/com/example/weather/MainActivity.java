@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                                     infoValues.add(Double.toString(answer1.getCurrent().getTempC()));
                                     infoValues.add(Double.toString(answer1.getCurrent().getWindKph()));
                                     infoValues.add(answer1.getCurrent().getWindDir());
-                                    infoValues.add(Double.toString(answer1.getCurrent().getPrecipMm()));
+                                    infoValues.add(Double.toString(answer1.getCurrent().getPressureMb()));
                                     infoValues.add(Double.toString(answer1.getCurrent().getHumidity())+"%");
                                     viewInfo(infoTypes,infoValues);
                                 }
